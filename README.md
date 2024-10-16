@@ -49,7 +49,7 @@ You know the routine
 
 1. Enable testsigning and debug mode [Debug mode as KPP would trigger when we hook into `KeBugCheckEx`].
 ```
-bcdedit /set testsignin on
+bcdedit /set testsigning on
 bcdedit /debug on
 ```
 
